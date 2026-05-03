@@ -9,10 +9,10 @@ This repository implements a hybrid deep learning framework designed to detect A
 * Adaptive Fusion: Uses an Attention-based module to dynamically weight features from both backbones for more robust classification.
 
 ## Model Workflow
-Preprocessing: Augmentation and conversion to a 4-channel (RGB-G) tensor.
+* Preprocessing: Augmentation and conversion to a 4-channel (RGB-G) tensor.
 
-Feature Extraction: Parallel processing through ConvNeXt-Tiny and Swin-Tiny.
+* Feature Extraction: Parallel processing through ConvNeXt-Tiny and Swin-Tiny.
 
-Fusion: Weighted feature integration via an attention mechanism.
+* Fusion: Weighted feature integration via an attention mechanism.
 
-Classification: Binary prediction (AI vs. Human) via a fully connected head.
+* Classification: Binary prediction (AI vs. Human) via a fully connected head.
