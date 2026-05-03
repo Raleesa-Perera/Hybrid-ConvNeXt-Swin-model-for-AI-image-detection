@@ -2,11 +2,11 @@
 This repository implements a hybrid deep learning framework designed to detect AI-generated images. The model focuses on identifying subtle structural and textural artifacts that distinguish synthetic content from authentic human-created images.
 
 ## Key Technical Highlights
-Hybrid Architecture: Combines ConvNeXt (CNN) for local spatial features and Swin Transformer for global contextual dependencies.
+* Hybrid Architecture: Combines ConvNeXt (CNN) for local spatial features and Swin Transformer for global contextual dependencies.
 
-4-Channel Input: Processes RGB + Grayscale simultaneously to better capture luminance-based inconsistencies and frequency artifacts.
+* 4-Channel Input: Processes RGB + Grayscale simultaneously to better capture luminance-based inconsistencies and frequency artifacts.
 
-Adaptive Fusion: Uses an Attention-based module to dynamically weight features from both backbones for more robust classification.
+* Adaptive Fusion: Uses an Attention-based module to dynamically weight features from both backbones for more robust classification.
 
 ## Model Workflow
 Preprocessing: Augmentation and conversion to a 4-channel (RGB-G) tensor.
