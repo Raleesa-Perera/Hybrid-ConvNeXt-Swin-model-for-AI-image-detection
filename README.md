@@ -6,7 +6,7 @@ This repository implements a hybrid deep learning framework designed to detect A
 
 * 4-Channel Input: Processes RGB + Grayscale simultaneously to better capture luminance-based inconsistencies and frequency artifacts.
 
-* Adaptive Fusion: Uses an Attention-based module to dynamically weight features from both backbones for more robust classification.
+* Uses an Attention-based module to dynamically weight features from both backbones for more robust classification.
 
 ## Model Workflow
 * Preprocessing: Augmentation and conversion to a 4-channel (RGB-G) tensor.
