@@ -1,4 +1,4 @@
-# Hybrid ConvNeXt–Swin AI Image Detector
+# Hybrid ConvNeXt–Swin Transformer model for AI Image Detection
 This repository implements a hybrid deep learning framework designed to detect AI-generated images. The model focuses on identifying subtle structural and textural artifacts that distinguish synthetic content from authentic human-created images.
 
 ## Key Technical Highlights
